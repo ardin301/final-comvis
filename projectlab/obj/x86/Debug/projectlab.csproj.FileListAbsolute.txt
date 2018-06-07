@@ -81,3 +81,4 @@ D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.Login.
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.Properties.Resources.resources
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.csproj.GenerateResource.Cache
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.ImageProc.resources
+C:\Users\yudhy\Documents\final-comvis\projectlab\bin\Debug\projectlab.exe.config
