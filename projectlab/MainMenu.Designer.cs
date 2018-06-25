@@ -63,7 +63,7 @@
             // 
             this.btnEdge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdge.Location = new System.Drawing.Point(152, 202);
-            this.btnEdge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEdge.Margin = new System.Windows.Forms.Padding(4);
             this.btnEdge.Name = "btnEdge";
             this.btnEdge.Size = new System.Drawing.Size(272, 118);
             this.btnEdge.TabIndex = 2;
@@ -75,18 +75,19 @@
             // 
             this.btnShape.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShape.Location = new System.Drawing.Point(495, 202);
-            this.btnShape.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnShape.Margin = new System.Windows.Forms.Padding(4);
             this.btnShape.Name = "btnShape";
             this.btnShape.Size = new System.Drawing.Size(272, 118);
             this.btnShape.TabIndex = 3;
             this.btnShape.Text = "Shape Detection";
             this.btnShape.UseVisualStyleBackColor = true;
+            this.btnShape.Click += new System.EventHandler(this.btnShape_Click);
             // 
             // btnImage
             // 
             this.btnImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnImage.Location = new System.Drawing.Point(152, 361);
-            this.btnImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnImage.Margin = new System.Windows.Forms.Padding(4);
             this.btnImage.Name = "btnImage";
             this.btnImage.Size = new System.Drawing.Size(272, 118);
             this.btnImage.TabIndex = 4;
@@ -98,7 +99,7 @@
             // 
             this.btnPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnPattern.Location = new System.Drawing.Point(495, 361);
-            this.btnPattern.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPattern.Margin = new System.Windows.Forms.Padding(4);
             this.btnPattern.Name = "btnPattern";
             this.btnPattern.Size = new System.Drawing.Size(272, 118);
             this.btnPattern.TabIndex = 5;
@@ -109,7 +110,7 @@
             // 
             this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.Location = new System.Drawing.Point(787, 15);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(109, 37);
             this.btnLogout.TabIndex = 6;
@@ -129,7 +130,7 @@
             this.Controls.Add(this.btnEdge);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblMenu);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainMenu";
             this.Text = "Menu";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainMenu_FormClosing);

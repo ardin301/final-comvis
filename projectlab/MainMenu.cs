@@ -16,6 +16,7 @@ namespace projectlab
 
         FormEdge FormEdge;
         ImageProc ImageProc;
+        ShapeDet ShapeDet;
 
         public MainMenu()
         {
@@ -53,6 +54,7 @@ namespace projectlab
             // initiate all menus
             this.FormEdge = new FormEdge(this);
             this.ImageProc = new ImageProc(this);
+            this.ShapeDet = new ShapeDet(this);
 
         }
 
@@ -66,6 +68,7 @@ namespace projectlab
         {
             this.FormEdge.Dispose();
             this.ImageProc.Dispose();
+            this.ShapeDet.Dispose();
             Application.Exit();
             //this.Login.Show();
         }
@@ -87,6 +90,12 @@ namespace projectlab
         {
             this.Hide();
             ImageProc.Show();
+        }
+
+        private void btnShape_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ShapeDet.Show();
         }
 
 

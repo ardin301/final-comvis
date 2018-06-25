@@ -67,12 +67,6 @@ D:\College\Computer Vision\projectlab\projectlab\bin\Debug\opencv_video231.dll
 D:\College\Computer Vision\projectlab\projectlab\bin\Debug\ZedGraph.dll
 D:\College\Computer Vision\projectlab\projectlab\bin\Debug\projectlab.exe
 D:\College\Computer Vision\projectlab\projectlab\bin\Debug\projectlab.pdb
-D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.xml
-D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.GPU.xml
-D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.ML.xml
-D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.OCR.xml
-D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.UI.xml
-D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.Util.xml
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.csprojResolveAssemblyReference.cache
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.FormEdge.resources
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.MainMenu.resources
@@ -82,3 +76,12 @@ D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.Proper
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.csproj.GenerateResource.Cache
 D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.ImageProc.resources
 C:\Users\yudhy\Documents\final-comvis\projectlab\bin\Debug\projectlab.exe.config
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2008.dll
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.dll
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.GPU.dll
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.ML.dll
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.OCR.dll
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.CV.UI.dll
+D:\College\Computer Vision\projectlab\projectlab\bin\Debug\Emgu.Util.dll
+D:\College\Computer Vision\projectlab\projectlab\obj\x86\Debug\projectlab.ShapeDet.resources
