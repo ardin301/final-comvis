@@ -121,3 +121,4 @@ C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.Proper
 C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.csproj.GenerateResource.Cache
 C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.exe
 C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.pdb
+
