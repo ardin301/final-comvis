@@ -86,11 +86,11 @@ namespace projectlab
                 this.ori = new Image<Bgr, byte>(new Bitmap(this.image));
                 this.gray = new Image<Gray, byte>(this.ori.Width, this.ori.Height);
                 this.smooth = new Image<Bgr, byte>(this.ori.Width, this.ori.Height);
-                this.thres = gray.Clone();
 
                 CvInvoke.cvCvtColor(this.ori, this.gray, COLOR_CONVERSION.CV_BGR2GRAY);
+                this.thres = gray.Clone();
 
-                CvInvoke.cvThreshold(this.gray, this.thres, 41, (Double)trackThres.Value, THRESH.CV_THRESH_BINARY);
+                CvInvoke.cvThreshold(this.gray, this.thres, (Double)trackThres.Value, 41, THRESH.CV_THRESH_BINARY);
                 CvInvoke.cvSmooth(this.ori, this.smooth, SMOOTH_TYPE.CV_BLUR, (Int32)trackSmooth.Value, (Int32)trackSmooth.Value, 0, 0);
 
                 bindImages();
