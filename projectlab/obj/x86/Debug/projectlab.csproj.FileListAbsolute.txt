@@ -121,4 +121,7 @@ C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.Proper
 C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.csproj.GenerateResource.Cache
 C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.exe
 C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.pdb
-
+C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.ShapeDet.resources
+C:\Users\yudhy\Documents\final-comvis\projectlab\bin\Debug\haarcascade_eye.xml
+C:\Users\yudhy\Documents\final-comvis\projectlab\bin\Debug\haarcascade_frontalface_alt.xml
+C:\Users\yudhy\Documents\final-comvis\projectlab\obj\x86\Debug\projectlab.PatternRec.resources

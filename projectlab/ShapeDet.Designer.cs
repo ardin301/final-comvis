@@ -31,9 +31,9 @@
             this.imgMain = new System.Windows.Forms.PictureBox();
             this.btnUpload = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.chkLine = new System.Windows.Forms.CheckBox();
-            this.chkRect = new System.Windows.Forms.CheckBox();
             this.chkCircle = new System.Windows.Forms.CheckBox();
+            this.chkRect = new System.Windows.Forms.CheckBox();
+            this.chkLine = new System.Windows.Forms.CheckBox();
             this.btnProcess = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -43,17 +43,20 @@
             // 
             // imgMain
             // 
-            this.imgMain.Location = new System.Drawing.Point(116, 12);
+            this.imgMain.Location = new System.Drawing.Point(87, 10);
+            this.imgMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.imgMain.Name = "imgMain";
-            this.imgMain.Size = new System.Drawing.Size(479, 450);
+            this.imgMain.Size = new System.Drawing.Size(359, 366);
+            this.imgMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgMain.TabIndex = 0;
             this.imgMain.TabStop = false;
             // 
             // btnUpload
             // 
-            this.btnUpload.Location = new System.Drawing.Point(301, 490);
+            this.btnUpload.Location = new System.Drawing.Point(226, 398);
+            this.btnUpload.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(113, 40);
+            this.btnUpload.Size = new System.Drawing.Size(85, 32);
             this.btnUpload.TabIndex = 1;
             this.btnUpload.Text = "Upload";
             this.btnUpload.UseVisualStyleBackColor = true;
@@ -65,49 +68,55 @@
             this.groupBox1.Controls.Add(this.chkRect);
             this.groupBox1.Controls.Add(this.chkLine);
             this.groupBox1.Enabled = false;
-            this.groupBox1.Location = new System.Drawing.Point(659, 30);
+            this.groupBox1.Location = new System.Drawing.Point(494, 24);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(196, 182);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(147, 148);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Shape Mode";
             // 
-            // chkLine
-            // 
-            this.chkLine.AutoSize = true;
-            this.chkLine.Location = new System.Drawing.Point(28, 50);
-            this.chkLine.Name = "chkLine";
-            this.chkLine.Size = new System.Drawing.Size(57, 21);
-            this.chkLine.TabIndex = 0;
-            this.chkLine.Text = "Line";
-            this.chkLine.UseVisualStyleBackColor = true;
-            // 
-            // chkRect
-            // 
-            this.chkRect.AutoSize = true;
-            this.chkRect.Location = new System.Drawing.Point(28, 90);
-            this.chkRect.Name = "chkRect";
-            this.chkRect.Size = new System.Drawing.Size(94, 21);
-            this.chkRect.TabIndex = 1;
-            this.chkRect.Text = "Rectangle";
-            this.chkRect.UseVisualStyleBackColor = true;
-            // 
             // chkCircle
             // 
             this.chkCircle.AutoSize = true;
-            this.chkCircle.Location = new System.Drawing.Point(28, 134);
+            this.chkCircle.Location = new System.Drawing.Point(21, 109);
+            this.chkCircle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkCircle.Name = "chkCircle";
-            this.chkCircle.Size = new System.Drawing.Size(65, 21);
+            this.chkCircle.Size = new System.Drawing.Size(52, 17);
             this.chkCircle.TabIndex = 2;
             this.chkCircle.Text = "Circle";
             this.chkCircle.UseVisualStyleBackColor = true;
             // 
+            // chkRect
+            // 
+            this.chkRect.AutoSize = true;
+            this.chkRect.Location = new System.Drawing.Point(21, 73);
+            this.chkRect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkRect.Name = "chkRect";
+            this.chkRect.Size = new System.Drawing.Size(75, 17);
+            this.chkRect.TabIndex = 1;
+            this.chkRect.Text = "Rectangle";
+            this.chkRect.UseVisualStyleBackColor = true;
+            // 
+            // chkLine
+            // 
+            this.chkLine.AutoSize = true;
+            this.chkLine.Location = new System.Drawing.Point(21, 41);
+            this.chkLine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chkLine.Name = "chkLine";
+            this.chkLine.Size = new System.Drawing.Size(46, 17);
+            this.chkLine.TabIndex = 0;
+            this.chkLine.Text = "Line";
+            this.chkLine.UseVisualStyleBackColor = true;
+            // 
             // btnProcess
             // 
             this.btnProcess.Enabled = false;
-            this.btnProcess.Location = new System.Drawing.Point(700, 251);
+            this.btnProcess.Location = new System.Drawing.Point(525, 204);
+            this.btnProcess.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProcess.Name = "btnProcess";
-            this.btnProcess.Size = new System.Drawing.Size(125, 38);
+            this.btnProcess.Size = new System.Drawing.Size(94, 31);
             this.btnProcess.TabIndex = 3;
             this.btnProcess.Text = "Process";
             this.btnProcess.UseVisualStyleBackColor = true;
@@ -115,9 +124,10 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(12, 12);
+            this.btnBack.Location = new System.Drawing.Point(9, 10);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(89, 31);
+            this.btnBack.Size = new System.Drawing.Size(67, 25);
             this.btnBack.TabIndex = 4;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
@@ -129,16 +139,18 @@
             // 
             // ShapeDet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 571);
+            this.ClientSize = new System.Drawing.Size(684, 464);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnProcess);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnUpload);
             this.Controls.Add(this.imgMain);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ShapeDet";
             this.Text = "ShapeDet";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ShapeDet_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.imgMain)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

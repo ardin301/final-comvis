@@ -41,31 +41,28 @@
             // 
             this.lblMenu.AutoSize = true;
             this.lblMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMenu.Location = new System.Drawing.Point(260, 74);
-            this.lblMenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMenu.Location = new System.Drawing.Point(195, 60);
             this.lblMenu.Name = "lblMenu";
-            this.lblMenu.Size = new System.Drawing.Size(340, 29);
+            this.lblMenu.Size = new System.Drawing.Size(269, 24);
             this.lblMenu.TabIndex = 0;
-            this.lblMenu.Text = "Welcome to LOmo Camera, ";
+            this.lblMenu.Text = "Welcome to Lomo Camera, ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(324, 135);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(243, 110);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 20);
+            this.label1.Size = new System.Drawing.Size(201, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Choose menu for this application";
             // 
             // btnEdge
             // 
             this.btnEdge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdge.Location = new System.Drawing.Point(152, 202);
-            this.btnEdge.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEdge.Location = new System.Drawing.Point(114, 164);
             this.btnEdge.Name = "btnEdge";
-            this.btnEdge.Size = new System.Drawing.Size(272, 118);
+            this.btnEdge.Size = new System.Drawing.Size(204, 96);
             this.btnEdge.TabIndex = 2;
             this.btnEdge.Text = "Edge Detection";
             this.btnEdge.UseVisualStyleBackColor = true;
@@ -74,10 +71,9 @@
             // btnShape
             // 
             this.btnShape.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShape.Location = new System.Drawing.Point(495, 202);
-            this.btnShape.Margin = new System.Windows.Forms.Padding(4);
+            this.btnShape.Location = new System.Drawing.Point(371, 164);
             this.btnShape.Name = "btnShape";
-            this.btnShape.Size = new System.Drawing.Size(272, 118);
+            this.btnShape.Size = new System.Drawing.Size(204, 96);
             this.btnShape.TabIndex = 3;
             this.btnShape.Text = "Shape Detection";
             this.btnShape.UseVisualStyleBackColor = true;
@@ -86,10 +82,9 @@
             // btnImage
             // 
             this.btnImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnImage.Location = new System.Drawing.Point(152, 361);
-            this.btnImage.Margin = new System.Windows.Forms.Padding(4);
+            this.btnImage.Location = new System.Drawing.Point(114, 293);
             this.btnImage.Name = "btnImage";
-            this.btnImage.Size = new System.Drawing.Size(272, 118);
+            this.btnImage.Size = new System.Drawing.Size(204, 96);
             this.btnImage.TabIndex = 4;
             this.btnImage.Text = "Image Processing";
             this.btnImage.UseVisualStyleBackColor = true;
@@ -98,21 +93,20 @@
             // btnPattern
             // 
             this.btnPattern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnPattern.Location = new System.Drawing.Point(495, 361);
-            this.btnPattern.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPattern.Location = new System.Drawing.Point(371, 293);
             this.btnPattern.Name = "btnPattern";
-            this.btnPattern.Size = new System.Drawing.Size(272, 118);
+            this.btnPattern.Size = new System.Drawing.Size(204, 96);
             this.btnPattern.TabIndex = 5;
             this.btnPattern.Text = "Pattern Recognition and Classification ";
             this.btnPattern.UseVisualStyleBackColor = true;
+            this.btnPattern.Click += new System.EventHandler(this.btnPattern_Click);
             // 
             // btnLogout
             // 
             this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.Location = new System.Drawing.Point(787, 15);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLogout.Location = new System.Drawing.Point(590, 12);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(109, 37);
+            this.btnLogout.Size = new System.Drawing.Size(82, 30);
             this.btnLogout.TabIndex = 6;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = true;
@@ -120,9 +114,9 @@
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 567);
+            this.ClientSize = new System.Drawing.Size(684, 461);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnPattern);
             this.Controls.Add(this.btnImage);
@@ -130,7 +124,6 @@
             this.Controls.Add(this.btnEdge);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblMenu);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainMenu";
             this.Text = "Menu";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainMenu_FormClosing);

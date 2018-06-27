@@ -153,7 +153,7 @@ namespace projectlab
             resetControl();
             if (this.image == null)
             {
-                MessageBox.Show("Please upload image first");
+                MessageBox.Show("Please upload image first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -175,7 +175,8 @@ namespace projectlab
             resetControl();
             if (this.image == null)
             {
-                MessageBox.Show("Please upload image first");
+                MessageBox.Show("Please upload image first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
             else
             {
@@ -193,7 +194,8 @@ namespace projectlab
             resetControl();
             if (this.image == null)
             {
-                MessageBox.Show("Please upload image first");
+                MessageBox.Show("Please upload image first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
             else
             {

@@ -123,6 +123,11 @@ namespace projectlab
 
         }
 
+        private void ShapeDet_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form.Close();
+        }
+
 
 
     }

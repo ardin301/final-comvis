@@ -17,6 +17,7 @@ namespace projectlab
         FormEdge FormEdge;
         ImageProc ImageProc;
         ShapeDet ShapeDet;
+        PatternRec PatternRec;
 
         public MainMenu()
         {
@@ -55,7 +56,7 @@ namespace projectlab
             this.FormEdge = new FormEdge(this);
             this.ImageProc = new ImageProc(this);
             this.ShapeDet = new ShapeDet(this);
-
+            this.PatternRec = new PatternRec(this);
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -69,6 +70,7 @@ namespace projectlab
             this.FormEdge.Dispose();
             this.ImageProc.Dispose();
             this.ShapeDet.Dispose();
+            this.PatternRec.Dispose();
             Application.Exit();
             //this.Login.Show();
         }
@@ -96,6 +98,12 @@ namespace projectlab
         {
             this.Hide();
             ShapeDet.Show();
+        }
+
+        private void btnPattern_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PatternRec.Show();
         }
 
 
